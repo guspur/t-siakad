@@ -48,16 +48,6 @@ CREATE TABLE IF NOT EXISTS `plugin` (
   PRIMARY KEY  (`id_plugin`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=30 ;
 
---
--- Dumping data for table `plugin`
---
-
-INSERT INTO `plugin` (`id_plugin`, `plugin_name`, `description`, `position`, `status`, `perm_dosen`, `perm_mahasiswa`) VALUES
-(26, 'kalender', 'Widgets kalender. Oleh ibnu yahya.', 'widgets', 'true', 'false', 'false'),
-(27, 'dede', 'Modul data fakultas. Oleh ibnu yahya <ibnu.yahya@toroo.org>', 'modul', 'false', 'false', 'false'),
-(28, 'wawan', 'Modul data fakultas. Oleh ibnu yahya <ibnu.yahya@toroo.org>', 'modul', 'false', 'false', 'false'),
-(29, 'fakultas', 'Modul data fakultas. Oleh ibnu yahya <ibnu.yahya@toroo.org>', 'modul', 'true', 'false', 'false');
-
 -- --------------------------------------------------------
 
 --
