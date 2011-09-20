@@ -32,6 +32,7 @@ css_themes($themes,"form");
 css_themes($themes,"jquery.autocomplete");
 jquery();
 jquery_ui_min();
+jlib("datatable");
 /*js_ui("core");
 js_ui("resizable");
 js_ui("draggable");
@@ -43,6 +44,7 @@ js_ui("upload");
 js_ui("autocomplete2");
 include(THEMES.$themes."/js/js.php");
 js_ui("slideimages");
+
 ?>
 
 </head>

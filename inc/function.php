@@ -260,6 +260,9 @@ function form_input($array_label,$array_type,$array_name,$array_value,$array_cla
 		}
 		
 }
+function jlib($jlib_source){
+	include ("jlib/".$jlib_source."/inc.php");
+}
 
 function jquery(){
 	echo ("<script src='".HOSTNAME."inc/js/jquery.js'></script>\n");
